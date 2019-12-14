@@ -5,7 +5,7 @@ cd $WORK_PATH
 set -e
 set -u
 
-. "env_aws.sh"
+. "env.sh"
 
 LOG_FILE="$WORK_PATH/log/gen_table_list_$(date +"%F").log"
 FILE_NAME="all_tables_list.csv"
